@@ -1,11 +1,11 @@
 // ignore_for_file: type_literal_in_constant_pattern
 import 'dart:developer';
 import 'package:auto_animated/auto_animated.dart';
-import 'package:bloc_practice/features/news/bloc/bloc.dart';
-import 'package:bloc_practice/features/news/bloc/event.dart';
-import 'package:bloc_practice/features/news/bloc/state.dart';
-import 'package:bloc_practice/features/news/presentation/widgets/news_card.dart';
-import 'package:bloc_practice/helper/toast.dart';
+import 'package:news_app/features/news/bloc/bloc.dart';
+import 'package:news_app/features/news/bloc/event.dart';
+import 'package:news_app/features/news/bloc/state.dart';
+import 'package:news_app/features/news/presentation/widgets/news_card.dart';
+import 'package:news_app/helper/toast.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

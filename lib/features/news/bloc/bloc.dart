@@ -1,8 +1,8 @@
 import 'dart:async';
 import 'dart:developer';
-import 'package:bloc_practice/features/news/bloc/event.dart';
-import 'package:bloc_practice/features/news/bloc/state.dart';
-import 'package:bloc_practice/features/news/repository/news_repository.dart';
+import 'package:news_app/features/news/bloc/event.dart';
+import 'package:news_app/features/news/bloc/state.dart';
+import 'package:news_app/features/news/repository/news_repository.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import '../../../helper/di.dart';
 import '../model/data_model.dart';

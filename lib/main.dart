@@ -1,9 +1,9 @@
-import 'package:bloc_practice/constants/app_constants.dart';
-import 'package:bloc_practice/features/news/bloc/bloc.dart';
-import 'package:bloc_practice/features/news/presentation/news_screen.dart';
-import 'package:bloc_practice/helper/di.dart';
-import 'package:bloc_practice/helper/helper_method.dart';
-import 'package:bloc_practice/helper/language.dart';
+import 'package:news_app/constants/app_constants.dart';
+import 'package:news_app/features/news/bloc/bloc.dart';
+import 'package:news_app/features/news/presentation/news_screen.dart';
+import 'package:news_app/helper/di.dart';
+import 'package:news_app/helper/helper_method.dart';
+import 'package:news_app/helper/language.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

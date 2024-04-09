@@ -1,7 +1,7 @@
 // ignore_for_file: prefer_interpolation_to_compose_strings
 
 import 'dart:developer';
-import 'package:bloc_practice/constants/app_constants.dart';
+import 'package:news_app/constants/app_constants.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';

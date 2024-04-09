@@ -1,6 +1,7 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:news_app/helper/helper_method.dart';
 import 'package:shimmer/shimmer.dart';
 import '../../../../gen/assets.gen.dart';
 import '../../model/data_model.dart';
@@ -69,7 +70,7 @@ class NewsCard extends StatelessWidget {
                       style: const TextStyle(color: Colors.blue),
                     ),
                     Text(
-                      data.publishedAt!.toString(),
+                      formatedDateTime(data.publishedAt!),
                       style: TextStyle(color: Colors.black),
                     ),
                   ],

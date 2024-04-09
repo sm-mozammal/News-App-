@@ -1,4 +1,4 @@
-import 'package:bloc_practice/network/endpoints.dart';
+import 'package:news_app/network/endpoints.dart';
 import 'package:dio/dio.dart';
 import '../../../network/dio/dio.dart';
 import '../../../network/exception_handler/data_source.dart';

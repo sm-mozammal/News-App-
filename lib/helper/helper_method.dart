@@ -1,7 +1,9 @@
-import 'package:bloc_practice/constants/app_constants.dart';
-import 'package:bloc_practice/helper/di.dart';
+import 'package:news_app/constants/app_constants.dart';
+import 'package:news_app/helper/di.dart';
 import 'package:flutter/widgets.dart';
 import 'package:get/get.dart';
+
+import 'package:intl/intl.dart';
 
 void setLanguage({String? languageCode, String? countryCode}) {
   box.write(kKeyLanguage, languageCode);
@@ -24,4 +26,8 @@ void setLanguageCode(String language) {
       Get.updateLocale(local);
       break;
   }
+}
+
+String formatedDateTime(DateTime time) {
+  return DateFormat('d MMMM yyyy  HH:mm').format(time);
 }
